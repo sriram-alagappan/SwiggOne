@@ -1,0 +1,16 @@
+/workspaces/SwiggOne/src/main/java/com/swiggone/SwiggOneApplication.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/controller/CustomerController.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/controller/FoodItemController.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/controller/FoodOrderController.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/dto/FoodOrderRequest.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/exception/GlobalExceptionHandler.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/exception/ResourceNotFoundException.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/model/Customer.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/model/FoodItem.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/model/FoodOrder.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/repository/CustomerRepository.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/repository/FoodItemRepository.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/repository/FoodOrderRepository.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/service/CustomerService.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/service/FoodItemService.java
+/workspaces/SwiggOne/src/main/java/com/swiggone/service/FoodOrderService.java

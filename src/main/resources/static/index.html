@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SwiggOne | Good food, no fuss</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="#"><b class="mark">S<span>1</span></b><span>swigg<span class="orange">one</span><small>GOOD FOOD. EASY DAYS.</small></span></a>
+<nav><a href="#menu">Order food</a><a href="#about">Our little idea</a></nav><button id="open-cart" class="basket">Basket <b id="count">0</b></button></header>
+<main>
+<section class="hero"><div><p class="eyebrow">YOUR NEXT MEAL IS HERE</p><h1>Something good<br>is <em>on the menu.</em></h1><p class="intro">A little comfort, a little crunch, and the kind of food that makes a day better.</p><a class="cta" href="#menu">Find your food <span>↘</span></a><p class="note">— Made for hungry moments.</p></div>
+<div class="art"><div class="sun"></div><div class="plate"><span>🍛</span></div><b class="sticker">FRESH<br>& TASTY</b><i>✳</i></div></section>
+<section id="menu" class="menu"><div class="section-head"><div><p class="eyebrow">THE GOOD STUFF</p><h2>Pick your kind of <em>happy.</em></h2></div><input id="search" type="search" placeholder="Search the menu…" aria-label="Search menu"></div>
+<div class="filters"><button class="chosen" data-filter="all">Everything</button><button data-filter="veg">Veg-friendly</button><button data-filter="under200">Under ₹200</button></div>
+<p id="notice" class="notice" role="status">Loading the menu…</p><div id="foods" class="food-grid"></div></section>
+<section id="about" class="about"><span>01 / EASY AS THAT</span><h2>Good food.<br><em>Fewer steps.</em></h2><p>Find something you love, add it to your basket, and send your order. Simple, just how it should be.</p></section>
+</main><footer><b>swigg<span>one</span></b><span>A student-built food ordering project · © 2026</span></footer>
+<div id="shade" class="shade"></div><aside id="drawer" class="drawer"><div class="drawer-head"><div><p class="eyebrow">YOUR PICKS</p><h2>Your basket<span class="orange">.</span></h2></div><button id="close-cart" class="close">×</button></div><div id="cart" class="cart"></div><div class="total"><span>Subtotal</span><b id="total">₹0</b></div><p class="hint">Delivery charges, if any, are not included.</p><button id="checkout" class="submit">Continue to checkout <span>→</span></button></aside>
+<dialog id="checkout-dialog"><form id="checkout-form"><div class="drawer-head"><div><p class="eyebrow">ALMOST THERE</p><h2>Place your order</h2></div><button id="close-dialog" class="close" type="button">×</button></div><label for="customer">Customer ID <small>(existing database ID)</small></label><input id="customer" type="number" min="1" required placeholder="e.g. 1"><p class="hint">Use an existing customer ID in your database.</p><div class="total"><span>Order total</span><b id="dialog-total">₹0</b></div><button class="submit" id="place" type="submit">Place order <span>→</span></button><p id="message" role="status"></p></form></dialog><div id="toast" class="toast" role="status"></div>
+<script src="script.js"></script></body></html>
